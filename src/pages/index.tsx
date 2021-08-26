@@ -18,7 +18,7 @@ export default function Home() {
             <span>
               Uma plataforma com cursos que vão do zero até o profissional na
               pratica, direto ao ponto aplicando o que usamos no mercado de
-              trabalho.
+              trabalho 👊.
             </span>
             <a>
               <button>COMEÇAR AGORA!</button>
@@ -29,6 +29,34 @@ export default function Home() {
             src="/images/banner-conteudos.png"
             alt="Conteúdos Sujeito Programador"
           />
+        </div>
+
+        <hr className={styles.divisor} />
+
+        <div className={styles.sectionContent}>
+          <section>
+            <h2>Aprenda criar aplicativos para Android e iOS</h2>
+            <span>
+              Você vai descobrir o jeito mais moderno de desnvolver apps nativos
+              para iOS e Android, construindo aplicativos do zero até
+              aplicativos
+            </span>
+          </section>
+
+          <img src="/images/financasApp.png" alt="Conteudos mobile" />
+        </div>
+
+        <hr className={styles.divisor} />
+
+        <div className={styles.sectionContent}>
+          <img src="/images/webDev.png" alt="Conteudos web" />
+          <section>
+            <h2>Aprenda criar sistemas web</h2>
+            <span>
+              Criar sistemas web, sites usando as tecnologias mais modernas e
+              requisitadas pelo mercado
+            </span>
+          </section>
         </div>
       </main>
     </>
